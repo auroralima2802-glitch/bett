@@ -1,0 +1,47 @@
+var map = {
+	"./bear-color.png": 56269,
+	"./bull-color.png": 71087,
+	"./butterfly-color.png": 62652,
+	"./camel-color.png": 55397,
+	"./cat-color.png": 21427,
+	"./cobra-color.png": 49093,
+	"./cow-color.png": 22257,
+	"./crocodile-color.png": 22285,
+	"./deer-color.png": 56267,
+	"./dog-color.png": 91472,
+	"./donkey-color.png": 69389,
+	"./eagle-color.png": 26432,
+	"./elephant-color.png": 89662,
+	"./galo-color.png": 10364,
+	"./goat-color.png": 47297,
+	"./horse-color.png": 3659,
+	"./lion-color.png": 77417,
+	"./monkey-color.png": 44171,
+	"./ostrich-color.png": 38077,
+	"./peacock-color.png": 92307,
+	"./pig-color.png": 93124,
+	"./rabbit-color.png": 23011,
+	"./ram-color.png": 28266,
+	"./tiger-color.png": 5133,
+	"./turkey-color.png": 70393
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = 1838;

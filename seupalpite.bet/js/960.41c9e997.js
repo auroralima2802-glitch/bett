@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkjb_web_app"]=self["webpackChunkjb_web_app"]||[]).push([[960],{58960:function(e,n,r){r.r(n),r.d(n,{default:function(){return b}});var a=r(73396);const t={class:"wallet"},u=(0,a._)("h3",null,"Carteira",-1),c=[u];function s(e,n,r,u,s,l){return(0,a.wg)(),(0,a.iD)("div",t,c)}var l={},i=r(40089);const p=(0,i.Z)(l,[["render",s]]);var b=p}}]);
+//# sourceMappingURL=960.41c9e997.js.map
